@@ -1,8 +1,10 @@
-Go to the flutter folder and build an apk
+Go to the flutter module folder and build ios 
 
-```
-cd flutter
-flutter build apk
-```
+cd flutter_ads_issue_700
+flutter build ios --debug 
+cd ..
+cd googleads-mobile-issue-700 
+pod install 
+open Runner.xcworkspace 
 
-Open the android folder in android studio and run the app
+Open the googleads-mobile-issue-700/Runner.xcworkspace project in xcode run the app
