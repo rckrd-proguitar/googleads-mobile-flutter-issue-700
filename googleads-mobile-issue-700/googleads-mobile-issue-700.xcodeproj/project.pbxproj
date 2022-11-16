@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF85D8A22B5B86DBF4261ED3 /* Pods_googleads_mobile_issue_700.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993C5259FAF2AE6DA6D6FFCE /* Pods_googleads_mobile_issue_700.framework */; };
+		FF8C09B1292516F200892D89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C09B0292516F200892D89 /* AppDelegate.m */; };
+		FF8C09B7292516F200892D89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C09B6292516F200892D89 /* ViewController.m */; };
+		FF8C09BA292516F200892D89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8C09B8292516F200892D89 /* Main.storyboard */; };
+		FF8C09BC292516F300892D89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8C09BB292516F300892D89 /* Assets.xcassets */; };
+		FF8C09BF292516F300892D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8C09BD292516F300892D89 /* LaunchScreen.storyboard */; };
+		FF8C09C2292516F300892D89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8C09C1292516F300892D89 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D7766711B8712E47F74B24A /* Pods-googleads-mobile-issue-700.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleads-mobile-issue-700.debug.xcconfig"; path = "Target Support Files/Pods-googleads-mobile-issue-700/Pods-googleads-mobile-issue-700.debug.xcconfig"; sourceTree = "<group>"; };
+		7BF0C2589BB5A6991F0ECD8B /* Pods-googleads-mobile-issue-700.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-googleads-mobile-issue-700.release.xcconfig"; path = "Target Support Files/Pods-googleads-mobile-issue-700/Pods-googleads-mobile-issue-700.release.xcconfig"; sourceTree = "<group>"; };
+		993C5259FAF2AE6DA6D6FFCE /* Pods_googleads_mobile_issue_700.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_googleads_mobile_issue_700.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C09AC292516F200892D89 /* googleads-mobile-issue-700.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "googleads-mobile-issue-700.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8C09AF292516F200892D89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF8C09B0292516F200892D89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF8C09B5292516F200892D89 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF8C09B6292516F200892D89 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF8C09B9292516F200892D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8C09BB292516F300892D89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8C09BE292516F300892D89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF8C09C0292516F300892D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8C09C1292516F300892D89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8C09A9292516F200892D89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF85D8A22B5B86DBF4261ED3 /* Pods_googleads_mobile_issue_700.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1B02799147B05A664ABCBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D7766711B8712E47F74B24A /* Pods-googleads-mobile-issue-700.debug.xcconfig */,
+				7BF0C2589BB5A6991F0ECD8B /* Pods-googleads-mobile-issue-700.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E01CC319F9E5E31302F2312C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				993C5259FAF2AE6DA6D6FFCE /* Pods_googleads_mobile_issue_700.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF8C09A3292516F200892D89 = {
+			isa = PBXGroup;
+			children = (
+				FF8C09AE292516F200892D89 /* googleads-mobile-issue-700 */,
+				FF8C09AD292516F200892D89 /* Products */,
+				9F1B02799147B05A664ABCBE /* Pods */,
+				E01CC319F9E5E31302F2312C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF8C09AD292516F200892D89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C09AC292516F200892D89 /* googleads-mobile-issue-700.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF8C09AE292516F200892D89 /* googleads-mobile-issue-700 */ = {
+			isa = PBXGroup;
+			children = (
+				FF8C09AF292516F200892D89 /* AppDelegate.h */,
+				FF8C09B0292516F200892D89 /* AppDelegate.m */,
+				FF8C09B5292516F200892D89 /* ViewController.h */,
+				FF8C09B6292516F200892D89 /* ViewController.m */,
+				FF8C09B8292516F200892D89 /* Main.storyboard */,
+				FF8C09BB292516F300892D89 /* Assets.xcassets */,
+				FF8C09BD292516F300892D89 /* LaunchScreen.storyboard */,
+				FF8C09C0292516F300892D89 /* Info.plist */,
+				FF8C09C1292516F300892D89 /* main.m */,
+			);
+			path = "googleads-mobile-issue-700";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8C09AB292516F200892D89 /* googleads-mobile-issue-700 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8C09C5292516F300892D89 /* Build configuration list for PBXNativeTarget "googleads-mobile-issue-700" */;
+			buildPhases = (
+				0BA124C633EFE3262260B890 /* [CP] Check Pods Manifest.lock */,
+				B35E106518DCE3E1E5DFBEE2 /* [CP-User] Run Flutter Build flutter_ads_issue_700 Script */,
+				FF8C09A8292516F200892D89 /* Sources */,
+				FF8C09A9292516F200892D89 /* Frameworks */,
+				FF8C09AA292516F200892D89 /* Resources */,
+				F55765CCF665018FFDF59715 /* [CP] Embed Pods Frameworks */,
+				8311D8F3E2D6B14D03863E7A /* [CP-User] Embed Flutter Build flutter_ads_issue_700 Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "googleads-mobile-issue-700";
+			productName = "googleads-mobile-issue-700";
+			productReference = FF8C09AC292516F200892D89 /* googleads-mobile-issue-700.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8C09A4292516F200892D89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FF8C09AB292516F200892D89 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FF8C09A7292516F200892D89 /* Build configuration list for PBXProject "googleads-mobile-issue-700" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8C09A3292516F200892D89;
+			productRefGroup = FF8C09AD292516F200892D89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8C09AB292516F200892D89 /* googleads-mobile-issue-700 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8C09AA292516F200892D89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C09BF292516F300892D89 /* LaunchScreen.storyboard in Resources */,
+				FF8C09BC292516F300892D89 /* Assets.xcassets in Resources */,
+				FF8C09BA292516F200892D89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA124C633EFE3262260B890 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-googleads-mobile-issue-700-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8311D8F3E2D6B14D03863E7A /* [CP-User] Embed Flutter Build flutter_ads_issue_700 Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_ads_issue_700 Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_ads_isssue_700/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		B35E106518DCE3E1E5DFBEE2 /* [CP-User] Run Flutter Build flutter_ads_issue_700 Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_ads_issue_700 Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_ads_isssue_700/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		F55765CCF665018FFDF59715 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleads-mobile-issue-700/Pods-googleads-mobile-issue-700-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-googleads-mobile-issue-700/Pods-googleads-mobile-issue-700-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-googleads-mobile-issue-700/Pods-googleads-mobile-issue-700-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8C09A8292516F200892D89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8C09B7292516F200892D89 /* ViewController.m in Sources */,
+				FF8C09B1292516F200892D89 /* AppDelegate.m in Sources */,
+				FF8C09C2292516F300892D89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF8C09B8292516F200892D89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8C09B9292516F200892D89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF8C09BD292516F300892D89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8C09BE292516F300892D89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8C09C3292516F300892D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF8C09C4292516F300892D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8C09C6292516F300892D89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7766711B8712E47F74B24A /* Pods-googleads-mobile-issue-700.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R33JX633W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "googleads-mobile-issue-700/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.googleads-mobile-issue-700";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF8C09C7292516F300892D89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BF0C2589BB5A6991F0ECD8B /* Pods-googleads-mobile-issue-700.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3R33JX633W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "googleads-mobile-issue-700/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.googleads-mobile-issue-700";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8C09A7292516F200892D89 /* Build configuration list for PBXProject "googleads-mobile-issue-700" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C09C3292516F300892D89 /* Debug */,
+				FF8C09C4292516F300892D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8C09C5292516F300892D89 /* Build configuration list for PBXNativeTarget "googleads-mobile-issue-700" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8C09C6292516F300892D89 /* Debug */,
+				FF8C09C7292516F300892D89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8C09A4292516F200892D89 /* Project object */;
+}
