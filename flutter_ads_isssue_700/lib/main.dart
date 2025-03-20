@@ -57,10 +57,20 @@ class _MyHomePageState extends State<MyHomePage> {
   InterstitialAd? _interstitialAd;
   bool _isAdLoaded = false;
   bool _interstitialAdLoaded = false;
-
+  bool _umpReady = false;
   @override
   void initState() {
     super.initState();
+    ConsentInformation.instance.requestConsentInfoUpdate(
+        ConsentRequestParameters(
+            consentDebugSettings: ConsentDebugSettings(
+                debugGeography: DebugGeography.debugGeographyEea)), () {
+      setState(() {
+        _umpReady = true;
+      });
+    }, (error) {
+      throw error;
+    });
     _ad = BannerAd(
       adUnitId: bannerAdUnitId,
       size: AdSize.banner,
@@ -201,12 +211,27 @@ class _MyHomePageState extends State<MyHomePage> {
                     },
                     child: Text('Show interstitial ad'))
                 : SizedBox.shrink(),
+            _umpReady
+                ? TextButton(
+                    onPressed: () {
+                      ConsentForm.loadConsentForm((form) {
+                        form.show((error) {
+                          if (error != null) {
+                            throw error.message;
+                          }
+                        });
+                      }, (error) {
+                        throw error;
+                      });
+                    },
+                    child: Text('Open UMP dialog'))
+                : SizedBox.shrink(),
             Text(
               'You have pushed the button this many times:',
             ),
             Text(
               '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.labelMedium,
             ),
           ],
         ),
